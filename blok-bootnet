@@ -49,7 +49,9 @@ onlinegt.xyz
 picsgifs.xyz
 
 
-##domain yang digunakan untuk menampilkan iklan pada situs web atau aplikasi.
+# domain yang digunakan untuk menampilkan iklan pada situs web atau aplikasi.
+# Spam/news/reward	✅	⚠️ Bandwidth abuse
+*.baca.co.id
 baca.co.id
 ads.baca.co.id
 static.api.baca.co.id
@@ -57,3 +59,10 @@ api.baca.co.id
 img.cdn.baca.co.id
 logging.baca.co.id
 api.coin.baca.co.id
+
+
+# Malware beacon / cracked software	✅✅✅	🚨 Potensi malware aktif
+rdate.darkorb.net
+
+# Dugaan kuat: tracking beacon, PUP, DNS-tunnel background, dari aplikasi gelap
+ycxrl.com
