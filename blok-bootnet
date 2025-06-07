@@ -157,6 +157,8 @@ account.palm.tech
 weplay-mas.ap-southeast-3.log.aliyuncs.com
 oversea-master-log.ap-southeast-1.log.aliyuncs.com
 os-notice.shalltry.com
+# server DNS dari Sprint/Verizon (Tier-1 ISP di Amerika).Sering terlihat di perangkat dengan custom ROM, IOT murah, atau firmware OEM dari luar
+ns1.sprintlink.net
 
 
 
