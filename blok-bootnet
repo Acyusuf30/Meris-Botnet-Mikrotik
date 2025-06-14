@@ -141,24 +141,34 @@ ads.mtlnovel.net
 #update06juni bawaan Infinix/TECNO/Itel tidak bisa update otomatis, atau menghilangkan notifikasi iklan.
 ire-oneid.shalltry.com
 ire-dsu.shalltry.com
-data.veeka.chat
-trancare.transsion-os.com
 ds.shalltry.com
 dsu-a.shalltry.com
 ire-dsc.shalltry.com
 rococo.timeappmarketing.com
-api.hisavana.com
 event-tracking-project.log-global.aliyuncs.com
 cbphe.com
 api-track.linke.ai
-configuration.transsion-os.com
 dsu-b.shalltry.com
-account.palm.tech
 weplay-mas.ap-southeast-3.log.aliyuncs.com
 oversea-master-log.ap-southeast-1.log.aliyuncs.com
 os-notice.shalltry.com
+
+# Domain yang kemungkinan besar sah dan tidak perlu diblokir (kecuali ada masalah spesifik yang Anda alami):
+#data.veeka.chat
+#trancare.transsion-os.com
+#configuration.transsion-os.com
+#api.hisavana.com
+#account.palm.tech
+
 # server DNS dari Sprint/Verizon (Tier-1 ISP di Amerika).Sering terlihat di perangkat dengan custom ROM, IOT murah, atau firmware OEM dari luar
 ns1.sprintlink.net
+
+#Berdasarkan hasil ini, domain-domain berikut sangat direkomendasikan untuk diblokir: update 14Juni2025
+mysticechohaven.com
+bealafulup.com
+typhonsdiscal.top
+avsxappcaptiveportal.com
+
 
 
 
