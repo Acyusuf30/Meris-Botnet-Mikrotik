@@ -1,4 +1,3 @@
-# Pi-hole Blocklist
 # Dibuat: 27 Juni 2025
 
 # CATATAN:
@@ -6,7 +5,7 @@
 # Namun, beberapa entri di bawah ini menyertakan `.` di awal atau `www.` untuk kejelasan atau kasus tertentu, meskipun Pi-hole mungkin sudah menangani wildcard secara default.
 # Jika ada konflik atau perilaku tidak terduga, pertimbangkan untuk menghapus `.` atau `www.` dari entri yang duplikat.
 
----
+
 
 # Domain Tunnel Endpoint (DNS Tunneling)
 # Digunakan untuk melewati firewall atau menyembunyikan trafik.
@@ -15,7 +14,7 @@ eeongous.com
 leappoach.info
 mythtime.xyz
 
----
+
 
 # Domain Unduhan Skrip
 # Domain yang menyelenggarakan skrip berbahaya, adware, atau PUP (Potentially Unwanted Programs).
@@ -52,7 +51,7 @@ weirdgames.info
 widechanges.best
 zancetom.com
 
----
+
 
 # Botnet C2 (Command and Control) / Aktivitas Botnet Lainnya
 # Domain yang digunakan oleh botnet untuk komunikasi, termasuk laporan dari orang lain di internet.
@@ -89,7 +88,7 @@ momo128ads.today
 dominate.covboe.com
 covboe.com
 
----
+
 
 # Adware / Spam / Iklan / Potensi Penyalahgunaan Bandwidth
 # Domain yang digunakan untuk menampilkan iklan, spam, atau berita tidak relevan, seringkali menyebabkan penyalahgunaan bandwidth.
@@ -135,21 +134,21 @@ hylivecdn.sched.ovscdns.net
 ad.clickmobile.id
 clickmobile.id
 
----
+
 
 # Malware Beacon / Cracked Software / Potensi Malware Aktif
 # Domain yang terindikasi kuat sebagai beacon malware atau terkait dengan perangkat lunak bajakan.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 rdate.darkorb.net
 
----
+
 
 # Tracking Beacon / PUP / DNS-Tunnel Background (Aplikasi Gelap)
 # Diduga kuat: tracking beacon, PUP, DNS-tunnel background, dari aplikasi gelap.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 ycxrl.com
 
----
+
 
 # Typosquatting / Domain Spoofing
 # Domain yang menyerupai domain sah untuk tujuan penipuan atau penyebaran malware.
@@ -157,7 +156,7 @@ ycxrl.com
 goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
 www.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
 
----
+
 
 # RustoBot (Malware/Botnet Spesifik)
 # Domain dan IP yang terkait dengan upaya resolusi oleh "RustoBot"
@@ -176,14 +175,14 @@ v1035858.macloud.host
 # 176.57.168.134
 # 176.57.168.0/24
 
----
+
 
 # CPU Ubnt (Potensi Kompromi/Aktivitas Mencurigakan)
 # Domain terkait dengan aktivitas mencurigakan pada perangkat UBNT.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 luckyarda.unmsapp.com
 
----
+
 
 # Update Mei 2025
 # Tanggal Data: 15 Mei 2025
@@ -201,7 +200,7 @@ cdn.streamku.xyz
 # Tanggal Data: 30 Mei 2025
 down-ws-sg.com
 
----
+
 
 # Update Juni 2025
 
