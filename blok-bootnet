@@ -269,3 +269,7 @@ emojif.link
 # Update 01 Juli 2025
 aaa.hmdns.top     # Domain high traffic, terindikasi sebagai endpoint ads/malicious DNS sinkhole
 fusu.cc           # Domain mencurigakan, terdeteksi aktivitas botnet/malicious, lebih dari 23.000 hit dalam 5 menit
+
+# Update 15 Juli 2025
+heimaoip.com     # platform DDoS test publik, rentan disalahgunakan.
+docusign.com     # tanda tangan digital & Membuka link dokumen legal
