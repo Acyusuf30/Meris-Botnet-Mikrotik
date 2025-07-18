@@ -273,3 +273,8 @@ fusu.cc           # Domain mencurigakan, terdeteksi aktivitas botnet/malicious, 
 # Update 15 Juli 2025
 heimaoip.com     # platform DDoS test publik, rentan disalahgunakan.
 docusign.com     # tanda tangan digital & Membuka link dokumen legal
+
+# Update 18 Juli 2025
+client.nmaste.link      # indikasi API polling / loop DNS
+conflict.dciwallper.cc  # domain private/internal, heavy query
+z6r8.com                # domain mencurigakan – kemungkinan malware/tracker
