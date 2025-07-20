@@ -271,8 +271,9 @@ aaa.hmdns.top     # Domain high traffic, terindikasi sebagai endpoint ads/malici
 fusu.cc           # Domain mencurigakan, terdeteksi aktivitas botnet/malicious, lebih dari 23.000 hit dalam 5 menit
 
 # Update 15 Juli 2025
-heimaoip.com     # platform DDoS test publik, rentan disalahgunakan.
-docusign.com     # tanda tangan digital & Membuka link dokumen legal
+heimaoip.com            # platform DDoS test publik, rentan disalahgunakan.
+docusign.com            # tanda tangan digital & Membuka link dokumen legal
+cot.photoframecute.com	# Diduga adware/tracker – bukan domain resmi
 
 # Update 18 Juli 2025
 client.nmaste.link      # indikasi API polling / loop DNS
