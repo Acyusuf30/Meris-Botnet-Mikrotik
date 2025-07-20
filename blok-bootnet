@@ -5,16 +5,12 @@
 # Namun, beberapa entri di bawah ini menyertakan `.` di awal atau `www.` untuk kejelasan atau kasus tertentu, meskipun Pi-hole mungkin sudah menangani wildcard secara default.
 # Jika ada konflik atau perilaku tidak terduga, pertimbangkan untuk menghapus `.` atau `www.` dari entri yang duplikat.
 
-
-
 # Domain Tunnel Endpoint (DNS Tunneling)
 # Digunakan untuk melewati firewall atau menyembunyikan trafik.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 eeongous.com
 leappoach.info
 mythtime.xyz
-
-
 
 # Domain Unduhan Skrip
 # Domain yang menyelenggarakan skrip berbahaya, adware, atau PUP (Potentially Unwanted Programs).
@@ -51,8 +47,6 @@ weirdgames.info
 widechanges.best
 zancetom.com
 
-
-
 # Botnet C2 (Command and Control) / Aktivitas Botnet Lainnya
 # Domain yang digunakan oleh botnet untuk komunikasi, termasuk laporan dari orang lain di internet.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
@@ -87,8 +81,6 @@ gtm-stape.momo128ads.today
 momo128ads.today
 dominate.covboe.com
 covboe.com
-
-
 
 # Adware / Spam / Iklan / Potensi Penyalahgunaan Bandwidth
 # Domain yang digunakan untuk menampilkan iklan, spam, atau berita tidak relevan, seringkali menyebabkan penyalahgunaan bandwidth.
@@ -134,29 +126,21 @@ hylivecdn.sched.ovscdns.net
 ad.clickmobile.id
 clickmobile.id
 
-
-
 # Malware Beacon / Cracked Software / Potensi Malware Aktif
 # Domain yang terindikasi kuat sebagai beacon malware atau terkait dengan perangkat lunak bajakan.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 rdate.darkorb.net
-
-
 
 # Tracking Beacon / PUP / DNS-Tunnel Background (Aplikasi Gelap)
 # Diduga kuat: tracking beacon, PUP, DNS-tunnel background, dari aplikasi gelap.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 ycxrl.com
 
-
-
 # Typosquatting / Domain Spoofing
 # Domain yang menyerupai domain sah untuk tujuan penipuan atau penyebaran malware.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
 www.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
-
-
 
 # RustoBot (Malware/Botnet Spesifik)
 # Domain dan IP yang terkait dengan upaya resolusi oleh "RustoBot"
@@ -175,14 +159,10 @@ v1035858.macloud.host
 # 176.57.168.134
 # 176.57.168.0/24
 
-
-
 # CPU Ubnt (Potensi Kompromi/Aktivitas Mencurigakan)
 # Domain terkait dengan aktivitas mencurigakan pada perangkat UBNT.
 # Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 luckyarda.unmsapp.com
-
-
 
 # Update Mei 2025
 # Tanggal Data: 15 Mei 2025
@@ -199,8 +179,6 @@ cdn.streamku.xyz
 # Update 30 Mei 2025
 # Tanggal Data: 30 Mei 2025
 down-ws-sg.com
-
-
 
 # Update Juni 2025
 
@@ -265,7 +243,6 @@ cfpa.gov # domain pemerintah AS
 app.emojif.link #domain yang terkait dengan aplikasi mobile/web Emoji‑Link, tetapi juga bisa menjadi server iklan atau tracker
 emojif.link
 
-
 # Update 01 Juli 2025
 aaa.hmdns.top     # Domain high traffic, terindikasi sebagai endpoint ads/malicious DNS sinkhole
 fusu.cc           # Domain mencurigakan, terdeteksi aktivitas botnet/malicious, lebih dari 23.000 hit dalam 5 menit
@@ -273,9 +250,15 @@ fusu.cc           # Domain mencurigakan, terdeteksi aktivitas botnet/malicious, 
 # Update 15 Juli 2025
 heimaoip.com            # platform DDoS test publik, rentan disalahgunakan.
 docusign.com            # tanda tangan digital & Membuka link dokumen legal
-cot.photoframecute.com	# Diduga adware/tracker – bukan domain resmi
 
 # Update 18 Juli 2025
 client.nmaste.link      # indikasi API polling / loop DNS
 conflict.dciwallper.cc  # domain private/internal, heavy query
 z6r8.com                # domain mencurigakan – kemungkinan malware/tracker
+
+# Update 20 Juli 2025
+cot.photoframecute.com	              # Diduga adware/tracker – bukan domain resmi
+muermoabject.shop	                    #🔥 TLD .shop dengan nama acak → potensi malware / phising
+upblowcorbed.top	                    #🔥 TLD .top dan nama acak → kuat indikasi spam/malware beaconing
+908df012d9bb72e6d26b41054588d758.com	#🔥 Nama hash-like → malware beacon/tracker atau botnet callback
+midnightlotusgrove.com	              #⚠️ Nama tidak umum, perlu dianalisis lebih lanjut (mungkin tracker tersembunyi)
