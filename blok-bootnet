@@ -262,3 +262,8 @@ muermoabject.shop	                    #🔥 TLD .shop dengan nama acak → poten
 upblowcorbed.top	                    #🔥 TLD .top dan nama acak → kuat indikasi spam/malware beaconing
 908df012d9bb72e6d26b41054588d758.com	#🔥 Nama hash-like → malware beacon/tracker atau botnet callback
 midnightlotusgrove.com	              #⚠️ Nama tidak umum, perlu dianalisis lebih lanjut (mungkin tracker tersembunyi)
+
+#Update 25 Juli 2025
+time.nist.gov            # NTP Server Pemerintah AS
+rms.common.cn            # Botnet / Firmware China | Android Box, TV
+epitaxy.heivoesoelar.cc  # Malware API loop | VPN bajakan, APK luar
