@@ -282,3 +282,7 @@ hbtbank.com     #Habib Bank Limited (HBL) - layanan perbankan online resmi, aman
 event.erjunk.link     #Domain iklan/adware - digunakan untuk event tracking pada aplikasi/game gratis, sebaiknya blokir
 pro.eemoj.link     #Domain mencurigakan/adware - terkait distribusi iklan dan kemungkinan malvertising, blokir permanen
 
+# Update 7 Sep 2025
+api.qzxdianzi.com       # loop/tracking mencurigakan – blok sementara
+wuyou.komect.com        # domain tak dikenal, kaidah adware
+flow.hejiabao.komect.com # subdomain trafik tinggi – blokir sementara
