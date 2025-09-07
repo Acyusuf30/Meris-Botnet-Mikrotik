@@ -274,7 +274,7 @@ epitaxy.heivoesoelar.cc  # Malware API loop | VPN bajakan, APK luar
 cfpro.ru              # Beaconing malware / ad SDK / polling API
 
 # Update 05 Agustus 2025
-gsu.edu
+gsu.edu   # Domain resmi universitas AS, traffic tidak wajar → kemungkinan abuse/malware disguise
 3yc.de
 
 # Update 25 Agustus 2025
@@ -286,3 +286,5 @@ pro.eemoj.link     #Domain mencurigakan/adware - terkait distribusi iklan dan ke
 api.qzxdianzi.com       # loop/tracking mencurigakan – blok sementara
 wuyou.komect.com        # domain tak dikenal, kaidah adware
 flow.hejiabao.komect.com # subdomain trafik tinggi – blokir sementara
+event.erjunk.link   # Domain mencurigakan (adware/malware event tracking) – blokir
+
