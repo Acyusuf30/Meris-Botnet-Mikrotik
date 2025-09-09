@@ -224,6 +224,7 @@ rocket-cdn.com
 # Update 23 Juni 2025
 # Sering disalahgunakan oleh botnet, malware, atau scam.
 # Tanggal Data: 23 Juni 2025
+img.doodcdn.co
 doodcdn.co # Sudah termasuk img.doodcdn.co dan i.doodcdn.co
 clickmobile.id # Sudah termasuk ad.clickmobile.id
 collectd.org # Sudah termasuk .collectd.org (perbaikan dari .collectd.)
@@ -275,6 +276,7 @@ cfpro.ru              # Beaconing malware / ad SDK / polling API
 
 # Update 05 Agustus 2025
 gsu.edu   # Domain resmi universitas AS, traffic tidak wajar → kemungkinan abuse/malware disguise
+gwu.edu
 3yc.de
 
 # Update 25 Agustus 2025
