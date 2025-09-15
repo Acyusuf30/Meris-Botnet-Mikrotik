@@ -1,20 +1,15 @@
-# Dibuat: 27 Juni 2025
+# Dibuat: 27 Juni 2025 (versi sudah dikoreksi)
 
 # CATATAN:
-# Pi-hole secara otomatis menangani subdomain jika Anda menambahkan domain utama (misalnya, `example.com` akan memblokir `sub.example.com`).
-# Namun, beberapa entri di bawah ini menyertakan `.` di awal atau `www.` untuk kejelasan atau kasus tertentu, meskipun Pi-hole mungkin sudah menangani wildcard secara default.
-# Jika ada konflik atau perilaku tidak terduga, pertimbangkan untuk menghapus `.` atau `www.` dari entri yang duplikat.
+# Domain yang berpotensi mengganggu aplikasi utama (YouTube, TikTok, Facebook, IG, WhatsApp, VIU, Game, Smart TV bawaan) sudah DIHAPUS.
+# Tinggal copy-paste langsung ke Pi-hole blocklist.
 
 # Domain Tunnel Endpoint (DNS Tunneling)
-# Digunakan untuk melewati firewall atau menyembunyikan trafik.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 eeongous.com
 leappoach.info
 mythtime.xyz
 
 # Domain Unduhan Skrip
-# Domain yang menyelenggarakan skrip berbahaya, adware, atau PUP (Potentially Unwanted Programs).
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
 1abcnews.xyz
 1awesome.net
 7standby.com
@@ -47,9 +42,7 @@ weirdgames.info
 widechanges.best
 zancetom.com
 
-# Botnet C2 (Command and Control) / Aktivitas Botnet Lainnya
-# Domain yang digunakan oleh botnet untuk komunikasi, termasuk laporan dari orang lain di internet.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
+# Botnet C2 (Command and Control)
 bestmade.xyz
 gamesone.xyz
 mobigifs.xyz
@@ -59,32 +52,23 @@ picsgifs.xyz
 irc.zief.pl
 proxim.ircgalaxy.pl
 
-# Indikasi Serangan atau Botnet Aktivitas (Update 14 Juni 2025)
-# Domain yang sering disalahgunakan oleh botnet, malware, atau scam.
-# Tanggal Data: 14 Juni 2025
+# Indikasi Serangan / Botnet (14 Juni 2025)
 6mv1eyr328y6due83u3js6whtzuxfyhw.su
 a.6mv1eyr328y6due83u3js6whtzuxfyhw.su
 api.vvmate.com
 ezanvakti.bleshsdk.com
 itotolink.net
-query.yahooapis.com
 
 # Update 23 Juni 2025
-# Sering disalahgunakan oleh botnet, malware, atau scam.
-# Tanggal Data: 23 Juni 2025
 barstow.sillysgxm.cc
 israeli.mileocarueitus.com
 dotnxdomain.net
-i.doodcdn.co
-img.doodcdn.co
 gtm-stape.momo128ads.today
 momo128ads.today
 dominate.covboe.com
 covboe.com
 
-# Adware / Spam / Iklan / Potensi Penyalahgunaan Bandwidth
-# Domain yang digunakan untuk menampilkan iklan, spam, atau berita tidak relevan, seringkali menyebabkan penyalahgunaan bandwidth.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
+# Adware / Spam / Bandwidth Abuse
 baca.co.id
 ads.baca.co.id
 static.api.baca.co.id
@@ -96,9 +80,7 @@ report.yukbacaberita.com
 feed1.yukbacaberita.com
 yukbacaberita.com
 
-# Update 22 Juni 2025
-# Untuk tujuan click fraud atau adware (.click)
-# Tanggal Data: 22 Juni 2025
+# Update 22 Juni 2025 (.click fraud/adware)
 .click
 msg.illygo.click
 addr.turbod.click
@@ -121,31 +103,20 @@ freeflow.sched.ovscdns.net
 hylivecdn.sched.ovscdns.net
 
 # Update 26 Juni 2025
-# Broadcast hingga 12 ribu Query dalam 3 jam (Sering terkait adware/telemetri berlebihan)
-# Tanggal Data: 26 Juni 2025
 ad.clickmobile.id
 clickmobile.id
 
-# Malware Beacon / Cracked Software / Potensi Malware Aktif
-# Domain yang terindikasi kuat sebagai beacon malware atau terkait dengan perangkat lunak bajakan.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
+# Malware Beacon / Cracked Software
 rdate.darkorb.net
 
-# Tracking Beacon / PUP / DNS-Tunnel Background (Aplikasi Gelap)
-# Diduga kuat: tracking beacon, PUP, DNS-tunnel background, dari aplikasi gelap.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
+# Tracking Beacon / PUP
 ycxrl.com
 
-# Typosquatting / Domain Spoofing
-# Domain yang menyerupai domain sah untuk tujuan penipuan atau penyebaran malware.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
+# Typosquatting
 goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
 www.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
 
-# RustoBot (Malware/Botnet Spesifik)
-# Domain dan IP yang terkait dengan upaya resolusi oleh "RustoBot"
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
-# Catatan: IP dan path HTTP tidak bisa diblokir langsung di Pi-hole DNS, hanya domainnya.
+# RustoBot
 dvrhelper.anondns.net
 techsupport.anondns.net
 rustbot.anondns.net
@@ -154,47 +125,32 @@ update.carystudio.com
 updatetoto.tw
 totolinkc.com
 v1035858.macloud.host
-# IP berikut adalah untuk blokir tingkat firewall, bukan Pi-hole
-# 66.63.187.69
-# 176.57.168.134
-# 176.57.168.0/24
 
-# CPU Ubnt (Potensi Kompromi/Aktivitas Mencurigakan)
-# Domain terkait dengan aktivitas mencurigakan pada perangkat UBNT.
-# Tanggal Data: [Tidak ada tanggal spesifik untuk kategori ini, asumsikan bagian dari laporan awal]
+# CPU Ubnt
 luckyarda.unmsapp.com
 
 # Update Mei 2025
-# Tanggal Data: 15 Mei 2025
 apistpdrama.my.id
 amp.iblis4dg.com
 thegoodcaster.com
 
 # Update 19 Mei 2025
-# Tanggal Data: 19 Mei 2025
 streamku.xyz
 v2.streamku.xyz
 cdn.streamku.xyz
 
 # Update 30 Mei 2025
-# Tanggal Data: 30 Mei 2025
 down-ws-sg.com
 
-# Update Juni 2025
-
 # Update 04 Juni 2025
-# Tanggal Data: 04 Juni 2025
 pro.aalbm.click
 mask.moryg.link
 mtlnovel.net
-www.mtlnovel.net
 cdn.mtlnovel.net
 img.mtlnovel.net
 ads.mtlnovel.net
 
-# Update 06 Juni 2025 (Bawaan Infinix/TECNO/Itel)
-# Diduga menyebabkan gagal update otomatis atau notifikasi iklan.
-# Tanggal Data: 06 Juni 2025
+# Update 06 Juni 2025 (Bloatware Infinix/TECNO/Itel)
 ire-oneid.shalltry.com
 ire-dsu.shalltry.com
 ds.shalltry.com
@@ -210,8 +166,6 @@ oversea-master-log.ap-southeast-1.log.aliyuncs.com
 os-notice.shalltry.com
 
 # Update 14 Juni 2025
-# Sangat direkomendasikan untuk diblokir (scan malware & adware, click fraud/adware).
-# Tanggal Data: 14 Juni 2025
 mysticechohaven.com
 vingtunacroter.top
 bealafulup.com
@@ -222,71 +176,53 @@ bytefcdn-oversea.com
 rocket-cdn.com
 
 # Update 23 Juni 2025
-# Sering disalahgunakan oleh botnet, malware, atau scam.
-# Tanggal Data: 23 Juni 2025
-img.doodcdn.co
-doodcdn.co # Sudah termasuk img.doodcdn.co dan i.doodcdn.co
-clickmobile.id # Sudah termasuk ad.clickmobile.id
-collectd.org # Sudah termasuk .collectd.org (perbaikan dari .collectd.)
+doodcdn.co
+collectd.org
 
-# Daftar Domain Tracker/Chrome List (OPPO/Realme)
-# Tanggal Data: [Tidak ada tanggal spesifik, asumsikan 22 Juni 2025 karena terdekati]
+# Tracker OPPO/Realme
 obus-sg.dc.heytapmobile.com
 heytapmobile.com
 
-# Updatae 27 Juni 2025
-# Domain yang SANGAT DIREKOMENDASIKAN untuk diblokir (Potensi scam, adware, pelacakan invasif):
+# Update 27 Juni 2025
 nestlelento.shop
 az3-web.sg.kslawin.com
 az2-web.sg.kslawin.com
 zbdhwid.v.ecdnx.com
-cfpa.gov # domain pemerintah AS
-app.emojif.link #domain yang terkait dengan aplikasi mobile/web Emoji‑Link, tetapi juga bisa menjadi server iklan atau tracker
+app.emojif.link
 emojif.link
 
 # Update 01 Juli 2025
-aaa.hmdns.top     # Domain high traffic, terindikasi sebagai endpoint ads/malicious DNS sinkhole
-fusu.cc           # Domain mencurigakan, terdeteksi aktivitas botnet/malicious, lebih dari 23.000 hit dalam 5 menit
-
-# Update 15 Juli 2025
-heimaoip.com            # platform DDoS test publik, rentan disalahgunakan.
-docusign.com            # tanda tangan digital & Membuka link dokumen legal
+aaa.hmdns.top
+fusu.cc
 
 # Update 18 Juli 2025
-client.nmaste.link      # indikasi API polling / loop DNS
-conflict.dciwallper.cc  # domain private/internal, heavy query
-z6r8.com                # domain mencurigakan – kemungkinan malware/tracker
+client.nmaste.link
+conflict.dciwallper.cc
+z6r8.com
 
 # Update 20 Juli 2025
-cot.photoframecute.com	              # Diduga adware/tracker – bukan domain resmi
-muermoabject.shop	                    #🔥 TLD .shop dengan nama acak → potensi malware / phising
-upblowcorbed.top	                    #🔥 TLD .top dan nama acak → kuat indikasi spam/malware beaconing
-908df012d9bb72e6d26b41054588d758.com	#🔥 Nama hash-like → malware beacon/tracker atau botnet callback
-midnightlotusgrove.com	              #⚠️ Nama tidak umum, perlu dianalisis lebih lanjut (mungkin tracker tersembunyi)
+cot.photoframecute.com
+muermoabject.shop
+upblowcorbed.top
+908df012d9bb72e6d26b41054588d758.com
+midnightlotusgrove.com
 
-#Update 25 Juli 2025
-time.nist.gov            # NTP Server Pemerintah AS
-rms.common.cn            # Botnet / Firmware China | Android Box, TV
-epitaxy.heivoesoelar.cc  # Malware API loop | VPN bajakan, APK luar
+# Update 25 Juli 2025
+rms.common.cn
+epitaxy.heivoesoelar.cc
 
 # Update 27 Juli 2025
-# api.kscream.click     # Malware / adware beacon
-# kscream.click         # Domain root spammy/c2
-cfpro.ru              # Beaconing malware / ad SDK / polling API
+cfpro.ru
 
 # Update 05 Agustus 2025
-gsu.edu   # Domain resmi universitas AS, traffic tidak wajar → kemungkinan abuse/malware disguise
-gwu.edu
 3yc.de
 
 # Update 25 Agustus 2025
-hbtbank.com     #Habib Bank Limited (HBL) - layanan perbankan online resmi, aman jika memang user bank ini. banking trojan traffic - blocked
-event.erjunk.link     #Domain iklan/adware - digunakan untuk event tracking pada aplikasi/game gratis, sebaiknya blokir
-pro.eemoj.link     #Domain mencurigakan/adware - terkait distribusi iklan dan kemungkinan malvertising, blokir permanen
+event.erjunk.link
+pro.eemoj.link
 
 # Update 7 Sep 2025
-api.qzxdianzi.com       # loop/tracking mencurigakan – blok sementara
-wuyou.komect.com        # domain tak dikenal, kaidah adware
-flow.hejiabao.komect.com # subdomain trafik tinggi – blokir sementara
-event.erjunk.link   # Domain mencurigakan (adware/malware event tracking) – blokir
-
+api.qzxdianzi.com
+wuyou.komect.com
+flow.hejiabao.komect.com
+event.erjunk.link
