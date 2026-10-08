@@ -245,3 +245,8 @@ nousimul.monyanti.click # Suspicious domain / kemungkinan tracking-redirect, blo
 monyanti.click # Domain mencurigakan, blokir seluruh subdomain
 64ypd.6w9hps.com # Suspicious random subdomain, blokir
 6w9hps.com # Domain mencurigakan, blokir seluruh subdomain
+#Xiaomi telemetry/advertising
+bigdata-onetrack01-pri-alisgp.alb.xiaomi.com
+bigdata-onetrack02-pri-alisgp.alb.xiaomi.com
+bigdata-onetrack05-pri-alisgp.alb.xiaomi.com
+global-ad-intl-pri-alisgp.alb.xiaomi.com
