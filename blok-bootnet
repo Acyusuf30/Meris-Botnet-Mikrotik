@@ -251,3 +251,11 @@ bigdata-onetrack01-pri-alisgp.alb.xiaomi.com
 bigdata-onetrack02-pri-alisgp.alb.xiaomi.com
 bigdata-onetrack05-pri-alisgp.alb.xiaomi.com
 global-ad-intl-pri-alisgp.alb.xiaomi.com
+# Update 14 Oktober 2026
+sdkconfig.ad.intl.xiaomi.com
+api.ad.intl.xiaomi.com
+global-ad-intl-pri-alisgp.alb.xiaomi.com
+tracking.intl.miui.com
+bigdata-onetrack01-pri-alisgp.alb.xiaomi.com
+bigdata-onetrack02-pri-alisgp.alb.xiaomi.com
+bigdata-onetrack05-pri-alisgp.alb.xiaomi.com
